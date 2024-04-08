@@ -4,5 +4,7 @@ const convertToLetterGrade = grade => {
   if (grade > 90) return A;
   if (grade > 80) return B;
   if (grade > 70) return C;
-  return E;
+  return F;
 };
+
+const validatePosNum = number => num >= 0;
